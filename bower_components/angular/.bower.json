@@ -1,0 +1,11 @@
+{
+  "name": "angular",
+  "version": "1.3.20",
+  "main": "./angular.js",
+  "ignore": [],
+  "dependencies": {},
+  "_source": "art://angular/bower-angular",
+  "_target": "~1.3.0",
+  "_release": "v1.3.20",
+  "_originalSource": "angular"
+}

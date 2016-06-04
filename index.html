@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <script>
+        var angularVersions = {};
+    </script>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="js/app.bundle.js"></script>    <script src="js/vendor.bundle.js"></script>-->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src=" https://code.angularjs.org/1.5.1/angular.js"></script>
+    <script src="js/app.bundle.js"></script>
+    <script>
+        angularVersions[angular.version.full] = angular;
+        angular = null;
+    </script>
+ 
+      <script src=" https://code.angularjs.org/1.3.1/angular.js"></script>
+      <script src="angular1dot3.js"></script>
+  <script>
+        // angularVersions[angular.version.full] = angular;
+        // angular = null;
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container" name="psMovies">
+
+        <movie-list></movie-list>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "animate.css",
+  "main": "./animate.css",
+  "ignore": [
+    ".*",
+    "source",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ],
+  "_source": "art://daneden/animate.css",
+  "_target": "~3.5.1",
+  "_release": "3.5.1",
+  "version": "3.5.1",
+  "_originalSource": "animate.css"
+}
